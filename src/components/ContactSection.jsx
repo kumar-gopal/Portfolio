@@ -66,13 +66,13 @@ export const ContactSection = () => {
           <div className="space-y-8">
             <h3 className="text-2xl font-semibold mb-6">Contact Information</h3>
 
-            <div className="space-y-6 justify-center">
+            <div className="space-y-4 justify-center">
               <div className="flex items-start space-x-4">
                 <div className="p-3 rounded-full bg-primary/10">
                   <Mail className="h-6 w-6 text-primary" />
                 </div>
                 <div>
-                  <h4 className="font-medium">Email</h4>
+                  <h4 className="font-medium"></h4>
                   <a
                     href="mailto:contactkrgopal@gmail.com"
                     className="text-muted-foreground hover:text-primary transition-colors"
@@ -87,7 +87,7 @@ export const ContactSection = () => {
                   <Phone className="h-6 w-6 text-primary" />
                 </div>
                 <div>
-                  <h4 className="font-medium">Phone</h4>
+                  <h4 className="font-medium"></h4>
                   <a
                     href="tel:+917319968619"
                     className="text-muted-foreground hover:text-primary transition-colors"
@@ -102,7 +102,7 @@ export const ContactSection = () => {
                   <MapPin className="h-6 w-6 text-primary" />
                 </div>
                 <div>
-                  <h4 className="font-medium">Location</h4>
+                  <h4 className="font-medium"></h4>
                   <span className="text-muted-foreground hover:text-primary transition-colors">
                     New Delhi, India
                   </span>
@@ -129,14 +129,14 @@ export const ContactSection = () => {
                   <Github />
                 </a>
                 <a
-                  href="https://twitter.com"
+                  href="https://x.com/contactkrgopal?t=ACdqdRxVySrJoSVWR4MocA&s=09"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
                   <Twitter />
                 </a>
                 <a
-                  href="https://instagram.com"
+                  href="https://www.instagram.com/kr_gopal07/"
                   target="_blank"
                   rel="noopener noreferrer"
                 >

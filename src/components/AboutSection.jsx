@@ -13,8 +13,7 @@ export const AboutSection = () => {
             <h3 className="text-2xl font-semibold">Backend Developer & DevOps Enthusiast</h3>
 
             <p className="text-muted-foreground">
-              I’m Gopal Kumar, a backend developer with hands-on experience in building scalable APIs,
-              production-ready architectures, and real-time systems using Node.js, Express, MongoDB, PostgreSQL, and Redis.
+               I'm a backend developer with 1 year of hands-on experience building scalable, secure, and production-ready systems. I specialize in Node.js, Express.js, MongoDB, PostgreSQL, and Redis, and have worked on real-time applications, REST/GraphQL APIs, and cloud deployments using Docker and AWS.
             </p>
 
             <p className="text-muted-foreground">

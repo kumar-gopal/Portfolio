@@ -21,6 +21,36 @@ const projects = [
     demoUrl: "#", // Replace with your live app URL if hosted
     githubUrl: "https://github.com/kumar-gopal/Shopease/tree/master", // Replace with actual repo link
   },
+  {
+  id: 3,
+  title: "Axesell - Multi-Tenant SaaS E-Commerce Platform",
+  description:
+    "Architected a Shopify-style multi-tenant SaaS platform enabling businesses to launch independent stores with complete data isolation. Implemented domain-based routing (admin/storefront), Redis caching (50% latency reduction), and event-driven architecture with BullMQ. Deployed using Docker on AWS ECS with CI/CD pipelines and CDN via CloudFront + S3.",
+  image: "/projects/axesell.png",
+  tags: ["Node.js", "Express", "MongoDB", "Redis", "BullMQ", "AWS ECS", "Docker", "CloudFront"],
+  demoUrl: "#",
+  githubUrl: "https://github.com/kumar-gopal"
+},
+  {
+  id: 4,
+  title: "Scalable Notification System (Event-Driven)",
+  description:
+    "Designed an event-driven notification system using Redis and BullMQ with fan-out queues, improving message delivery efficiency by 70%. Supports async processing, retries, and high throughput workloads.",
+  image: "/projects/notification-system.png",
+  tags: ["Redis", "BullMQ", "Queues", "Event-Driven Architecture"],
+  demoUrl: "#",
+  githubUrl: "https://github.com/kumar-gopal"
+},
+  {
+  id: 5,
+  title: "High-Performance Product Search API",
+  description:
+    "Built scalable product discovery APIs with filtering, pagination, sorting, and Redis caching. Optimized database queries and indexing to handle large datasets with low latency.",
+  image: "/projects/product-api.png",
+  tags: ["Node.js", "MongoDB", "Redis", "API Optimization"],
+  demoUrl: "#",
+  githubUrl: "https://github.com/kumar-gopal"
+}
 ];
 
 export const ProjectsSection = () => {

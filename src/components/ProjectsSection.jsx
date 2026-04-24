@@ -50,6 +50,16 @@ const projects = [
   tags: ["Node.js", "MongoDB", "Redis", "API Optimization"],
   demoUrl: "#",
   githubUrl: "https://github.com/kumar-gopal"
+},
+  {
+  id: 6,
+  title: "LudoX - Real-Time Multiplayer Ludo Game",
+  description:
+    "Built a real-time multiplayer Ludo game with WebSockets supporting live gameplay, turn-based synchronization, and game state consistency. Implemented room-based architecture, reconnection handling, and server-side game logic to prevent cheating. Designed scalable backend with Redis for session/state management and low-latency communication.",
+  image: "/projects/ludo.png",
+  tags: ["Node.js", "Socket.io", "Redis", "WebSockets", "Game Logic"],
+  demoUrl: "#",
+  githubUrl: "https://github.com/kumar-gopal"
 }
 ];
 

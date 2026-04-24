@@ -3,16 +3,6 @@ import { ArrowRight, ExternalLink, Github } from "lucide-react";
 const projects = [
   {
     id: 1,
-    title: "Wando - Hotel Listing & Review App",
-    description:
-      "Full-stack platform to list hotels, write user reviews, rate stays, and search by filters. Built with Node.js, MongoDB, and React.",
-    image: "/projects/wando.png", // add a real screenshot to your /public folder
-    tags: ["Node.js", "MongoDB", "React", "Tailwind"],
-    demoUrl: "https://wandroapp.onrender.com/",
-    githubUrl: "https://github.com/kumar-gopal/wandroApp", // update when available
-  },
-  {
-    id: 2,
     title: "ChatHive - Real-Time Chat App",
     description:
       "Built with MERN Stack and Socket.io, supports 10K+ messages/day, JWT auth, and role-based access control. Optimized for <50ms latency.",
@@ -22,7 +12,7 @@ const projects = [
     githubUrl: "https://github.com/kumar-gopal", // Replace with real project repo if available
   },
   {
-    id: 3,
+    id: 2,
     title: "ShopEase - Multi-Vendor E-Commerce Platform",
     description:
       "Modular monolithic e-commerce web app supporting multiple vendors, role-based access, inventory, payments, reviews, and an admin dashboard. Production-ready and scalable.",

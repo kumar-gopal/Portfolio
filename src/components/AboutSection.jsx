@@ -10,19 +10,38 @@ export const AboutSection = () => {
 
         <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
           <div className="space-y-6">
-            <h3 className="text-2xl font-semibold">Backend Developer & DevOps Enthusiast</h3>
+            <h3 className="text-2xl font-semibold">
+              Backend Engineer & Cloud Infrastructure Enthusiast
+            </h3>
 
             <p className="text-muted-foreground">
-               I'm a backend developer with 1 year of hands-on experience building scalable, secure, and production-ready systems. I specialize in Node.js, Express.js, MongoDB, PostgreSQL, and Redis, and have worked on real-time applications, REST/GraphQL APIs, and cloud deployments using Docker and AWS.
+              Hi, I’m Gopal Kumar — a Backend Engineer with 2+ years of experience
+              building scalable SaaS platforms, distributed backend systems, and
+              production-grade cloud infrastructure using Node.js, TypeScript,
+              Redis, MongoDB, PostgreSQL, and AWS.
             </p>
 
             <p className="text-muted-foreground">
-              I've worked on AI pipelines, REST/GraphQL APIs, CI/CD automation, Docker, and cloud deployments with AWS.
-              I'm passionate about solving real-world backend problems and optimizing performance for scale.
+              I specialize in architecting high-performance backend systems
+              including multi-tenant e-commerce SaaS platforms, secure LMS video
+              streaming infrastructures, AI-powered applications, and real-time
+              communication systems. My experience includes REST & GraphQL APIs,
+              Redis caching, BullMQ queues, WebSocket architectures,
+              FFmpeg-based HLS streaming pipelines, authentication systems, and
+              scalable cloud deployments.
+            </p>
+
+            <p className="text-muted-foreground">
+              I enjoy solving complex backend architecture challenges, optimizing
+              systems for scalability and reliability, and building
+              production-ready applications end-to-end with strong focus on
+              performance, security, and developer experience.
             </p>
 
             <div className="flex flex-col sm:flex-row gap-4 pt-4 justify-center">
-              <a href="#contact" className="cosmic-button">Get In Touch</a>
+              <a href="#contact" className="cosmic-button">
+                Get In Touch
+              </a>
 
               <a
                 href="/GopalResume.pdf"
@@ -40,10 +59,17 @@ export const AboutSection = () => {
                 <div className="p-3 rounded-full bg-primary/10">
                   <Code className="h-6 w-6 text-primary" />
                 </div>
+
                 <div className="text-left">
-                  <h4 className="font-semibold text-lg">API Development</h4>
+                  <h4 className="font-semibold text-lg">
+                    API Development
+                  </h4>
+
                   <p className="text-muted-foreground">
-                    Designing robust REST & GraphQL APIs with authentication, rate limiting, and role-based access.
+                    Designing scalable REST & GraphQL APIs with JWT
+                    authentication, RBAC authorization, rate limiting, Redis
+                    caching, queue-driven workflows, and third-party integrations
+                    for production-grade systems.
                   </p>
                 </div>
               </div>
@@ -54,10 +80,17 @@ export const AboutSection = () => {
                 <div className="p-3 rounded-full bg-primary/10">
                   <Server className="h-6 w-6 text-primary" />
                 </div>
+
                 <div className="text-left">
-                  <h4 className="font-semibold text-lg">DevOps & Cloud</h4>
+                  <h4 className="font-semibold text-lg">
+                    DevOps & Cloud
+                  </h4>
+
                   <p className="text-muted-foreground">
-                    Dockerized full-stack apps with GitHub Actions & deployed via AWS (EC2, ECS, S3, Lambda).
+                    Building and deploying Dockerized applications with CI/CD
+                    pipelines using GitHub Actions and AWS services including
+                    EC2, ALB, Auto Scaling, S3, CloudFront, ACM, and scalable
+                    cloud infrastructure.
                   </p>
                 </div>
               </div>
@@ -68,10 +101,17 @@ export const AboutSection = () => {
                 <div className="p-3 rounded-full bg-primary/10">
                   <Briefcase className="h-6 w-6 text-primary" />
                 </div>
+
                 <div className="text-left">
-                  <h4 className="font-semibold text-lg">Production Experience</h4>
+                  <h4 className="font-semibold text-lg">
+                    Production Experience
+                  </h4>
+
                   <p className="text-muted-foreground">
-                    Delivered production-ready solutions with scalable architecture and 99.5%+ service accuracy.
+                    Architected and delivered production-ready SaaS, LMS
+                    streaming, AI, and real-time systems handling high
+                    concurrent traffic with focus on scalability, security,
+                    distributed workflows, and performance optimization.
                   </p>
                 </div>
               </div>
